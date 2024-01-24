@@ -23,6 +23,27 @@ body {
   color: #272142;
 }
 
+.about-section {
+  padding: 150px 15px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.about-section p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: normal;
+}
+
 h1,
 h2,
 h3,
