@@ -62,6 +62,10 @@ body {
   font-family: var(--logo-font-family);
 }
 
+.navbar {
+  background-color: var(--secondary-color);
+}
+
 h1,
 h2,
 h3,
@@ -111,6 +115,37 @@ h1 {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+}
+
+.contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+.email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+.social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+.social-links a:hover {
+  color: #fff;
+  background-color: var(--branding-color);
+}
+
+footer {
+  margin: 60px 0;
 }
 
 @media (max-width: 770px) {
