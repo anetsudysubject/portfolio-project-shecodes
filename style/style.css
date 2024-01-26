@@ -3,6 +3,7 @@
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
+  --logo-font-family: "Praise", cursive;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -46,6 +47,19 @@ body {
   font-size: 16px;
   line-height: 30px;
   font-weight: normal;
+}
+
+.nav-item {
+  padding-right: 15px;
+}
+
+.nav-link:hover,
+.active {
+  color: var(--branding-color) !important;
+}
+
+.navbar-brand {
+  font-family: var(--logo-font-family);
 }
 
 h1,
