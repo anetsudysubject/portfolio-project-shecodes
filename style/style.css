@@ -25,17 +25,22 @@ body {
 }
 
 .content-section {
-  padding: 160px 20px;
+  padding: 110px 30px;
+}
+
+.content-info {
+  margin: 80px 45px;
 }
 
 .foto {
+  width: 74%;
   display: block;
   margin: 0 auto;
 }
 
 .content-section h1 {
   font-size: 64px;
-  line-height: 80px;
+  line-height: 70px;
   font-family: var(--heading-font-family);
 }
 
